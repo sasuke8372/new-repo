@@ -1,4 +1,3 @@
-
 body {
     background-image: url("Untitled52_20220123215317N.png");
     background-size: 100%;
@@ -11,6 +10,10 @@ body {
 
  .im, .imp{
      display: none;
+ }
+ .im{
+    animation-name:vb;
+    animation-duration: 1s;
  }
  h1{
      text-align: center;
@@ -148,4 +151,12 @@ h5{
     color: black;
 }
  }
- 
+
+ @keyframes vb{
+    0%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
