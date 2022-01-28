@@ -113,14 +113,14 @@ body {
      }
  }
 
- @media(max-width:942px){
+ @media(max-width:366px){
 .im{
     margin-top: 15px;
     display: block;
     border-radius: 50%;
     height: 40px;
     width: 43px;
-}
+     }
 .imp{
     margin-top: 13px;
     margin-right: -44px;
@@ -129,6 +129,8 @@ body {
     font-size: 4px;
 
 }
+}
+ @media(max-width:961px){
 #q, #w, #e, #r{
     color: white;
 }
